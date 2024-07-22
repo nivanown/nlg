@@ -189,6 +189,7 @@ b, strong {
 
 .directions__arrow {
   position: absolute;
+  margin: -1px 0 0;
   width: 154px;
   height: 156px;
   top: 50%;
