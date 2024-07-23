@@ -135,17 +135,18 @@ b, strong {
 
 .directions__circle {
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 142px;
   height: 142px;
   color: #fff;
   text-align: center;
   background: #7541FF;
   border-radius: 100%;
+  transition: .3s background;
   z-index: 3;
+  }
+
+.directions__circle:hover {
+  background: #5B1DFD;
   }
 
 .directions__circle:nth-child(1) { 
@@ -183,8 +184,23 @@ b, strong {
   bottom: 0;
   }
 
+.directions__circle a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 100%;
+  }
+
 .directions__circle_main {
   background: #3AA655;
+  }
+
+.directions__circle_main:hover {
+  background: #1F913B;
   }
 
 .directions__arrow {
